@@ -1,0 +1,1 @@
+int main() { int arr[5] = {1, 2, 3, 4, 5}; int *ptr = (int *)malloc(5 * sizeof(int)); memcpy(ptr, arr, 5 * sizeof(int)); free(ptr); return 0; }
